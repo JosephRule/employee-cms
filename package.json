@@ -1,0 +1,24 @@
+{
+  "name": "employee-cms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node start index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JosephRule/employee-cms.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JosephRule/employee-cms/issues"
+  },
+  "homepage": "https://github.com/JosephRule/employee-cms#readme",
+  "dependencies": {
+    "inquirer": "^8.2.2",
+    "mysql2": "^2.3.3"
+  }
+}
