@@ -11,6 +11,8 @@ const choices = [
     {name: "Update an employee role", value: "call update employee role function"}
 ]
 
+
+
 // init function call the prompt menu
 // prompt menu gives questions and returns
 
@@ -48,7 +50,17 @@ function init() {
             default: false
         })
         .then( choice => {
-            console.log(choice)
+
+            // case when or if choice == A
+                // inquierer prompt
+                // take input and run sql
+                // prmopt exit
+                    // exit()
+                    // init()
+            // if choice B
+                // embed inquierer prompt here and pass it to another .then()?
+            // Case when
+
         })
 }
 
