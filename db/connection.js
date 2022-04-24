@@ -4,7 +4,7 @@ const db = mysql.createConnection(
     {
       host: 'localhost',
       user: 'root',
-      password: 'Sh7I3lpLc3qq',
+      password: 'password',
       database: 'cms'
     },
     console.log('Connected to the cms database.')
